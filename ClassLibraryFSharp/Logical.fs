@@ -5,14 +5,22 @@ module public Logical=
     let mutable private Znak:string[] = null
     let mutable private VecB:float32[] = null
     let mutable private VecC:float32[] = null
+    let mutable private W:float32 =  0.0f
+    let mutable private D : float32[] = null
 
     //тут нужно пихать list с индексами переменных без базисных переменных
-    let Пункт5 arrayList : list<int>=
-        printfn arrayList
-        if arrayList.Length == MatrixA.GetLength(1) then
+    let Пункт5 (arrayList : array<int>):unit=
+        let mutable notBazicOgr = []
+        let matrixX = [|for i in 0..MatrixA.GetLength(1)-1 do i|]
+        if arrayList.Length <> MatrixA.GetLength(1) then
             printfn "Все круто"
-        else 
-
+            //тут работа с индексами
+            for i in 0..(arrayList.Length-1) do
+                if arrayList.[i] <> matrixX.[i] then
+                    notBazicOgr<-i::notBazicOgr
+                    //TODO: допилить ввод новых строк
+            
+            
 
 
 
@@ -40,7 +48,7 @@ module public Logical=
         
     let private Пунк3 arrayMatrixA =
         let mutable countX:int = 0
-        let mutable indexBazM = List.empty
+        let mutable indexBazM = Array.empty
         for row in 0..MatrixA.GetLength(0)-1 do
             //let mutable count:int = 1
             let mutable rows = [|for i in 0..MatrixA.GetLength(1)-1 -> MatrixA.[row,i]|]
@@ -50,7 +58,7 @@ module public Logical=
                then 
                    printfn "Базисная переменная %d" (row+1)
                    countX<-countX+1
-                   indexBazM<-countX::indexBazM
+                   indexBazM<-Array.append indexBazM [|i|]
         if countX=MatrixA.GetLength(0) then printfn "Количество базисных переменных равно количеству X"
         else 
             printfn "Требуется универсальный симплекс метод"
