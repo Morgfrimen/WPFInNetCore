@@ -1,0 +1,8 @@
+D:\Программирование\WPFInNetCore\ClassLibraryFSharp\bin\Debug\netcoreapp3.0\ClassLibraryFSharp.deps.json
+D:\Программирование\WPFInNetCore\ClassLibraryFSharp\bin\Debug\netcoreapp3.0\ClassLibraryFSharp.dll
+D:\Программирование\WPFInNetCore\ClassLibraryFSharp\bin\Debug\netcoreapp3.0\ClassLibraryFSharp.pdb
+D:\Программирование\WPFInNetCore\ClassLibraryFSharp\obj\Debug\netcoreapp3.0\ClassLibraryFSharp.fsprojAssemblyReference.cache
+D:\Программирование\WPFInNetCore\ClassLibraryFSharp\obj\Debug\netcoreapp3.0\ClassLibraryFSharp.AssemblyInfoInputs.cache
+D:\Программирование\WPFInNetCore\ClassLibraryFSharp\obj\Debug\netcoreapp3.0\ClassLibraryFSharp.AssemblyInfo.fs
+D:\Программирование\WPFInNetCore\ClassLibraryFSharp\obj\Debug\netcoreapp3.0\ClassLibraryFSharp.dll
+D:\Программирование\WPFInNetCore\ClassLibraryFSharp\obj\Debug\netcoreapp3.0\ClassLibraryFSharp.pdb
