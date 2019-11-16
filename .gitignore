@@ -10,9 +10,6 @@
 *.userosscache
 *.sln.docstates
 
-#моя редакция для игнора
-/bin
-
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
