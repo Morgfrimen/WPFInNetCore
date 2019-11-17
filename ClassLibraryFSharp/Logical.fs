@@ -8,21 +8,52 @@ module public Logical=
     let mutable private W:float32 =  0.0f
     let mutable private D : float32[] = null
 
+    //Вспомогательные функции, по сути велосипед, ибо Array2D.copy работает не так, как ожидается
+    let private array2DCopy (oldArray:float32[,] , newArray: float32[,]) : float32[,]=
+        for i in 0..oldArray.GetLength(0)-1 do
+            for j in 0..oldArray.GetLength(1)-1 do
+                newArray.[i,j]<-oldArray.[i,j]
+        newArray
+    
+    let private arrayCopyFloat (oldArray:float32[] , newArray: float32[]) : float32[]=
+        for i in 0..oldArray.GetLength(0)-1 do
+            newArray.[i]<-oldArray.[i]
+        newArray
+
+    let private arrayCopyInt (oldArray:int32[] , newArray: int32[]) : int32[]=
+        for i in 0..oldArray.GetLength(0)-1 do
+            newArray.[i]<-oldArray.[i]
+        newArray
+    
+    //TODO: Пункт 8 допилить
+
+
     //тут нужно пихать list с индексами переменных без базисных переменных
-    let Пункт5 (arrayList : array<int>):unit=
+    let Пункт5 (arrayList : int[]):unit=
         let mutable notBazicOgr = []
+        let arraysListing = arrayCopyInt (arrayList ,(Array.create (MatrixA.GetLength(1)) 0))
         let matrixX = [|for i in 0..MatrixA.GetLength(1)-1 do i|]
         if arrayList.Length <> MatrixA.GetLength(1) then
-            printfn "Все круто"
-            //тут работа с индексами
-            for i in 0..(arrayList.Length-1) do
-                if arrayList.[i] <> matrixX.[i] then
-                    notBazicOgr<-i::notBazicOgr
-                    //TODO: допилить ввод новых строк
-            
-            
-
-
+            printfn "Все не круто, нужно добавлять базисные переменные"
+            for i in matrixX do
+                if arraysListing.[i] <> matrixX.[i] then
+                    notBazicOgr <- matrixX.[i]::notBazicOgr    
+            let mutable newMatrixA = Array2D.create (MatrixA.GetLength(0)+notBazicOgr.Length) (MatrixA.GetLength(1)) 0.0f
+            newMatrixA<-array2DCopy (MatrixA ,newMatrixA)
+            for i in 0..notBazicOgr.Length-1 do
+                newMatrixA.[MatrixA.GetLength(0)+i,notBazicOgr.[i]]<-1.0f
+            MatrixA<-newMatrixA
+        printfn "Новая матрица А :" 
+        printfn "%A" MatrixA
+        for i in notBazicOgr do
+            W<-W+VecB.[i]
+        W <- -W
+        printfn "Сумма W = %F" W
+        D <- Array.create (MatrixA.GetLength(0)) 0.0f
+        for n in 0..MatrixA.GetLength(0)-notBazicOgr.Length-1 do
+            for m in notBazicOgr do
+                D.[n]<- D.[n] - MatrixA.[n,m]
+        printfn "Новый вектор D: %A" D
 
     //неравенства в равенства
     let private Пунк2 arraysZnak =
@@ -63,12 +94,7 @@ module public Logical=
         else 
             printfn "Требуется универсальный симплекс метод"
             Пункт5 indexBazM
-        printfn "Отыграл Пункт 3"    
-
-   
-        
-
-    
+        printfn "Отыграл Пункт 3" 
 
     let StartProgram ():unit =
         Пунк2 Znak

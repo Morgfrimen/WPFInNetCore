@@ -28,13 +28,15 @@ namespace WPFInNetCore
 
             FS.SimplexMethod.MatrixA = new float [,] { { 2.5f, 0f }, { 0f, 1f} };
             FS.SimplexMethod.Znak = new string [] { "=", "=", "=", "=" };
+            FS.SimplexMethod.VecB =  new float[]{200f,1000f,900f,5000f};
             FS.Logical.StartProgram();
             Console.WriteLine();
             Console.WriteLine("______________Новый метод______________");
             Console.WriteLine();
-            FS.SimplexMethod.MatrixA = new float[,] {{2.5f, 1f, 0f, 1f}, {6f, 0f, 1f, 1f}};
-            FS.SimplexMethod.Znak = new string[] {"=", "<", "<", ">"};
+            FS.SimplexMethod.MatrixA = new float[,] {{1f, 0f, 1f, 2.5f}, {0f, 1f, 1f, 6f}};
+            FS.SimplexMethod.Znak = new string[] {"<", "<", ">", "="};
             FS.Logical.StartProgram();
+
 
 
         }
