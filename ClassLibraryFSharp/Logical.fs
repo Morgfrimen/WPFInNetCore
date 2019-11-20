@@ -7,6 +7,7 @@ module public Logical=
     let mutable private VecC:float32[] = null
     let mutable private W:float32 =  0.0f
     let mutable private D : float32[] = null
+    let mutable private Базис : int32 = -1
 
     //Вспомогательные функции, по сути велосипед, ибо Array2D.copy работает не так, как ожидается
     let private array2DCopy (oldArray:float32[,] , newArray: float32[,]) : float32[,]=
@@ -24,8 +25,22 @@ module public Logical=
         for i in 0..oldArray.GetLength(0)-1 do
             newArray.[i]<-oldArray.[i]
         newArray
-    
-    //TODO: Пункт 8 допилить
+    //TODO: Для проверки разбить большие пункты как нужно - создать нормальную иеррархию
+    //TODO: Пункт 10 допилить
+    let Пункт9 ():unit =
+        if D.[Базис] >= 0.0f then printfn "Переход к пункту 17 - обычный симплекс метод"
+        else printfn "Универсальные симплекс метод - переход к пункту 10"
+        
+
+
+    let Пунк8 ():unit =
+        let Dmin = 
+            let mutable DNew:array<float32> =
+                Array.copy D
+            Базис <- Array.findIndex (fun elem->elem = Array.min DNew ) DNew
+            Array.min DNew
+        printfn "Базис первый в массиве D = %d , а минимальное значение: %F" Базис Dmin
+        Пункт9()
 
 
     //тут нужно пихать list с индексами переменных без базисных переменных
@@ -54,6 +69,7 @@ module public Logical=
             for m in notBazicOgr do
                 D.[n]<- D.[n] - MatrixA.[n,m]
         printfn "Новый вектор D: %A" D
+        Пунк8()
 
     //неравенства в равенства
     let private Пунк2 arraysZnak =
@@ -96,9 +112,12 @@ module public Logical=
             Пункт5 indexBazM
         printfn "Отыграл Пункт 3" 
 
+    //[<EntryPoint>]
     let StartProgram ():unit =
         Пунк2 Znak
         Пунк3 MatrixA
+        //0
+        
     
 
 
