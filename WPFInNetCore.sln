@@ -9,6 +9,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ClassLibraryFSharp", "Class
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tutorial1", "Tutorial1\Tutorial1.fsproj", "{00DD267A-19DD-4553-AFB0-602D9DA8C28B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSimplexMethod", "..\TestSimplexMethod\TestSimplexMethod.csproj", "{ADDEBF7F-D152-4CAD-AC26-424DC40442D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{00DD267A-19DD-4553-AFB0-602D9DA8C28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00DD267A-19DD-4553-AFB0-602D9DA8C28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00DD267A-19DD-4553-AFB0-602D9DA8C28B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADDEBF7F-D152-4CAD-AC26-424DC40442D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDEBF7F-D152-4CAD-AC26-424DC40442D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDEBF7F-D152-4CAD-AC26-424DC40442D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDEBF7F-D152-4CAD-AC26-424DC40442D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

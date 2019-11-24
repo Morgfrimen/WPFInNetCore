@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Library.fs" />
+    <Compile Include="SimpleSimplexMethod.fs" />
+    <Compile Include="SimplexMethodUniversal.fs" />
     <Compile Include="Logical.fs" />
+    <Compile Include="Library.fs" />
+    
   </ItemGroup>
 
 </Project>

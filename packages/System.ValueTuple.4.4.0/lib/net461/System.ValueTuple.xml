@@ -1236,17 +1236,18 @@
     <member name="M:System.ValueTuple`1.CompareTo(System.ValueTuple{`0})">
       <summary>Compares the current <see cref="T:System.ValueTuple`1"></see> instance to a specified <see cref="T:System.ValueTuple`1"></see> instance.</summary>
       <param name="other">The tuple to compare with this instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`1.Equals(System.Object)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`1"></see> instance is equal to a specified object.</summary>
@@ -1274,17 +1275,18 @@
       <summary>Compares the current <see cref="T:System.ValueTuple`1"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
       <param name="comparer">An object that provides custom rules for comparison.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`1.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`1"></see> instance is equal to a specified object based on a specified comparison method.</summary>
@@ -1300,17 +1302,18 @@
     <member name="M:System.ValueTuple`1.System#IComparable#CompareTo(System.Object)">
       <summary>Compares the current <see cref="T:System.ValueTuple`1"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.  </p>
- <table><thead><tr><th> Value  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.
+        <table><thead><tr><th> Value
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="T:System.ValueTuple`2">
       <summary>Represents a value tuple with 2 components.</summary>
@@ -1325,17 +1328,18 @@
     <member name="M:System.ValueTuple`2.CompareTo(System.ValueTuple{`0,`1})">
       <summary>Compares the current <see cref="T:System.ValueTuple`2"></see> instance to a specified <see cref="T:System.ValueTuple`2"></see> instance.</summary>
       <param name="other">The tuple to compare with this instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`2.Equals(System.Object)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`2"></see> instance is equal to a specified object.</summary>
@@ -1367,17 +1371,18 @@
       <summary>Compares the current <see cref="T:System.ValueTuple`2"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
       <param name="comparer">An object that provides custom rules for comparison.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`2.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`2"></see> instance is equal to a specified object based on a specified comparison method.</summary>
@@ -1393,17 +1398,18 @@
     <member name="M:System.ValueTuple`2.System#IComparable#CompareTo(System.Object)">
       <summary>Compares the current <see cref="T:System.ValueTuple`2"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.  </p>
- <table><thead><tr><th> Value  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.
+        <table><thead><tr><th> Value
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="T:System.ValueTuple`3">
       <summary>Represents a value tuple with 3 components.</summary>
@@ -1420,17 +1426,18 @@
     <member name="M:System.ValueTuple`3.CompareTo(System.ValueTuple{`0,`1,`2})">
       <summary>Compares the current <see cref="T:System.ValueTuple`3"></see> instance to a specified <see cref="T:System.ValueTuple`3"></see> instance.</summary>
       <param name="other">The tuple to compare with this instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`3.Equals(System.Object)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`3"></see> instance is equal to a specified object.</summary>
@@ -1466,17 +1473,18 @@
       <summary>Compares the current <see cref="T:System.ValueTuple`3"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
       <param name="comparer">An object that provides custom rules for comparison.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`3.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`3"></see> instance is equal to a specified object based on a specified comparison method.</summary>
@@ -1492,17 +1500,18 @@
     <member name="M:System.ValueTuple`3.System#IComparable#CompareTo(System.Object)">
       <summary>Compares the current <see cref="T:System.ValueTuple`3"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.  </p>
- <table><thead><tr><th> Value  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.
+        <table><thead><tr><th> Value
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="T:System.ValueTuple`4">
       <summary>Represents a value tuple with 4 components.</summary>
@@ -1521,17 +1530,18 @@
     <member name="M:System.ValueTuple`4.CompareTo(System.ValueTuple{`0,`1,`2,`3})">
       <summary>Compares the current <see cref="T:System.ValueTuple`4"></see> instance to a specified <see cref="T:System.ValueTuple`4"></see> instance.</summary>
       <param name="other">The tuple to compare with this instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`4.Equals(System.Object)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`4"></see> instance is equal to a specified object.</summary>
@@ -1571,17 +1581,18 @@
       <summary>Compares the current <see cref="T:System.ValueTuple`4"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
       <param name="comparer">An object that provides custom rules for comparison.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`4.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`4"></see> instance is equal to a specified object based on a specified comparison method.</summary>
@@ -1597,17 +1608,18 @@
     <member name="M:System.ValueTuple`4.System#IComparable#CompareTo(System.Object)">
       <summary>Compares the current <see cref="T:System.ValueTuple`4"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.  </p>
- <table><thead><tr><th> Value  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.
+        <table><thead><tr><th> Value
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="T:System.ValueTuple`5">
       <summary>Represents a value tuple with 5 components.</summary>
@@ -1628,17 +1640,18 @@
     <member name="M:System.ValueTuple`5.CompareTo(System.ValueTuple{`0,`1,`2,`3,`4})">
       <summary>Compares the current <see cref="T:System.ValueTuple`5"></see> instance to a specified <see cref="T:System.ValueTuple`5"></see> instance.</summary>
       <param name="other">The tuple to compare with this instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`5.Equals(System.Object)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`5"></see> instance is equal to a specified object.</summary>
@@ -1682,17 +1695,18 @@
       <summary>Compares the current <see cref="T:System.ValueTuple`5"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
       <param name="comparer">An object that provides custom rules for comparison.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`5.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`5"></see> instance is equal to a specified object based on a specified comparison method.</summary>
@@ -1708,17 +1722,18 @@
     <member name="M:System.ValueTuple`5.System#IComparable#CompareTo(System.Object)">
       <summary>Compares the current <see cref="T:System.ValueTuple`5"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.  </p>
- <table><thead><tr><th> Value  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.
+        <table><thead><tr><th> Value
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="T:System.ValueTuple`6">
       <summary>Represents a value tuple with 6 components.</summary>
@@ -1741,17 +1756,18 @@
     <member name="M:System.ValueTuple`6.CompareTo(System.ValueTuple{`0,`1,`2,`3,`4,`5})">
       <summary>Compares the current <see cref="T:System.ValueTuple`6"></see> instance to a specified <see cref="T:System.ValueTuple`6"></see> instance.</summary>
       <param name="other">The tuple to compare with this instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`6.Equals(System.Object)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`6"></see> instance is equal to a specified object.</summary>
@@ -1799,17 +1815,18 @@
       <summary>Compares the current <see cref="T:System.ValueTuple`6"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
       <param name="comparer">An object that provides custom rules for comparison.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`6.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`6"></see> instance is equal to a specified object based on a specified comparison method.</summary>
@@ -1825,17 +1842,18 @@
     <member name="M:System.ValueTuple`6.System#IComparable#CompareTo(System.Object)">
       <summary>Compares the current <see cref="T:System.ValueTuple`6"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.  </p>
- <table><thead><tr><th> Value  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.
+        <table><thead><tr><th> Value
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="T:System.ValueTuple`7">
       <summary>Represents a value tuple with 7 components.</summary>
@@ -1860,17 +1878,18 @@
     <member name="M:System.ValueTuple`7.CompareTo(System.ValueTuple{`0,`1,`2,`3,`4,`5,`6})">
       <summary>Compares the current <see cref="T:System.ValueTuple`7"></see> instance to a specified <see cref="T:System.ValueTuple`7"></see> instance.</summary>
       <param name="other">The tuple to compare with this instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and                      <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and                                      <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows                                      <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`7.Equals(System.Object)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`7"></see> instance is equal to a specified object.</summary>
@@ -1922,17 +1941,18 @@
       <summary>Compares the current <see cref="T:System.ValueTuple`7"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
       <param name="comparer">An object that provides custom rules for comparison.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`7.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`7"></see> instance is equal to a specified object based on a specified comparison method.</summary>
@@ -1948,17 +1968,18 @@
     <member name="M:System.ValueTuple`7.System#IComparable#CompareTo(System.Object)">
       <summary>Compares the current <see cref="T:System.ValueTuple`7"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.  </p>
- <table><thead><tr><th> Value  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.
+        <table><thead><tr><th> Value
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="T:System.ValueTuple`8">
       <summary>Represents an n-value tuple, where n is 8 or greater.</summary>
@@ -1986,17 +2007,18 @@
     <member name="M:System.ValueTuple`8.CompareTo(System.ValueTuple{`0,`1,`2,`3,`4,`5,`6,`7})">
       <summary>Compares the current <see cref="T:System.ValueTuple`8"></see> instance to a specified <see cref="T:System.ValueTuple`8"></see> instance</summary>
       <param name="other">The tuple to compare with this instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
     </member>
     <member name="M:System.ValueTuple`8.Equals(System.Object)">
       <summary>Returns a value that indicates whether the current <see cref="T:System.ValueTuple`8"></see> instance is equal to a specified object.</summary>
@@ -2052,17 +2074,18 @@
       <summary>Compares the current <see cref="T:System.ValueTuple`8"></see> instance to a specified object by using a specified comparer and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">The object to compare with the current instance.</param>
       <param name="comparer">An object that provides custom rules for comparison.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.  </p>
- <table><thead><tr><th> Vaue  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">other</code> in the sort order, as shown in the following able.
+        <table><thead><tr><th> Vaue
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
       <exception cref="T:System.ArgumentException"><paramref name="other">other</paramref> is not a <see cref="T:System.ValueTuple`8"></see> object.</exception>
     </member>
     <member name="M:System.ValueTuple`8.System#Collections#IStructuralEquatable#Equals(System.Object,System.Collections.IEqualityComparer)">
@@ -2079,17 +2102,18 @@
     <member name="M:System.ValueTuple`8.System#IComparable#CompareTo(System.Object)">
       <summary>Compares the current <see cref="T:System.ValueTuple`8"></see> object to a specified object and returns an integer that indicates whether the current object is before, after, or in the same position as the specified object in the sort order.</summary>
       <param name="other">An object to compare with the current instance.</param>
-      <returns><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="2"><p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="1" sourceendlinenumber="1">A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.  </p>
- <table><thead><tr><th> Value  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="4" sourceendlinenumber="4"> </th><th> Description  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="6" sourceendlinenumber="6"> </th></tr></thead><tbody><tr><td> A negative integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="8" sourceendlinenumber="8"> </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="10" sourceendlinenumber="10"> </td></tr><tr><td> Zero  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="12" sourceendlinenumber="12"> </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="14" sourceendlinenumber="14"> </td></tr><tr><td> A positive integer  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="16" sourceendlinenumber="16"> </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.  <p>
-<p sourcefile="System.ValueTuple.yml" sourcestartlinenumber="18" sourceendlinenumber="18"> </td></tr></tbody></table></p>
-</returns>
+      <returns>
+        A signed integer that indicates the relative position of this instance and <code data-dev-comment-type="paramref">obj</code> in the sort order, as shown in the following table.
+        <table><thead><tr><th> Value
+        </th><th> Description
+        </th></tr></thead><tbody><tr><td> A negative integer
+        </td><td> This instance precedes <code data-dev-comment-type="paramref">other</code>.
+        </td></tr><tr><td> Zero
+        </td><td> This instance and <code data-dev-comment-type="paramref">other</code> have the same position in the sort order.
+        </td></tr><tr><td> A positive integer
+        </td><td> This instance follows <code data-dev-comment-type="paramref">other</code>.
+        </td></tr></tbody></table>
+      </returns>
       <exception cref="T:System.ArgumentException"><paramref name="other">other</paramref> is not a <see cref="T:System.ValueTuple`8"></see> object.</exception>
     </member>
     <member name="T:System.ValueTuple">
